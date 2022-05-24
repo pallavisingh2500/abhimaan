@@ -101,6 +101,10 @@ app.get('/', (req, res) => {
     res.render('landing');
 })
 
+app.get('/request', (req, res) => {
+    res.render('request');
+})
+
 app.get('/comments',(req,res)=>{
     res.render('live-chat');
 })

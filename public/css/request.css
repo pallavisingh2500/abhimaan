@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;    
+}
+body{
+    background: url(image.jpg) no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: sans-serif; 
+}
+.container{
+    position: relative;
+    margin-top: 20px;
+    width: 500px;
+    height: 650px;
+    background: #dedede;
+    border-radius: 5px;
+}
+.label{
+  padding: 5px 130px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #130f40;
+}
+p{
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.sign_up{
+    padding: 0px 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+select{
+  height: 25px;
+    width: 130px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+    border: none;  
+    background: #f1f1f1;
+    margin: 5px 0 22px 0; 
+     
+}
+
+#date{
+  height: 25px;
+    width: 130px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+    border: none;  
+    background: #f1f1f1;
+    margin: 5px 0 22px 0; 
+}
+
+.sign_up input{
+    height: 2px;
+    width: 390px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+}
+    
+  input[type=text], input[type=password], input[type=tel],  textarea {  
+    padding: 15px;  
+    margin: 5px 0 22px 0;  
+    display: inline-block;  
+    border: none;  
+    background: #f1f1f1;  
+  }  
+  
+   div {  
+              padding: 10px 0;  
+           }  
+  hr {  
+    border: 1px solid #f1f1f1;  
+    margin-bottom: 15px;  
+  }  
+
+  .signupbtn {  
+    background-color: #4CAF50;  
+    color: white;  
+    padding: 5px 0px;   
+    border: none;  
+    cursor: pointer;  
+    width: 100%;  
+    opacity: 0.9;  
+    font-size: 18px;
+  }  
+  .signupbtn:hover {  
+    opacity: 1;  
+  }   
+
+  .button1{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    padding: 10px;
+    font-size: large;
+    
+  }
+  .button1 a{
+    text-decoration: none;
+    color: black;
+    /* font-weight: bold; */
+  }
+  
+  .button1:hover {
+    background-color: #008CBA;
+    color: white;
+  }

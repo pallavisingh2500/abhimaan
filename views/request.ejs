@@ -4,20 +4,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live chat with solution Hackers</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <title>Sign-Up Page</title>
+    <link rel="stylesheet" href="css/request.css">
+    <script src="js/script.js"></script>
 </head>
 
 <body>
-  <%- include("./partials/navbar")%>
+  
 
-
-
-
-  <script src="socket.io/socket.io.js"></script>
+      <div class="container">
+        <h1 class="label">ABHIMAAN</h1>
+                    <p>Do you want to become a seller?</p>
+                    <hr>
+          <form name="signupform" class="sign_up" onsubmit="return formValidation()" method="POST" action="successful.html">
+            
+                    <label for="firstname">Name</label>
+                    <input type="text" placeholder="Enter your full name " id="firstname" required>
+  
+                    <label for="Gender">Gender</label>
+                      <select name="Gender" id="Gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                      </select>&nbsp; &nbsp; &nbsp; &nbsp;
+  
+                    <label for="Age">DOB</label>
+                    <input type="date" placeholder="" id="date" required>
+  
+                    
+                    <label for="phone_no">Phone</label>
+                    <input type="tel" placeholder="Enter your mobile number " id="phone_no" required>
+  
+  
+                    <label for="email">Email</label>
+                    <input type="text" placeholder="abhimaan@gmail.com " id="email" required>
+  
+                    <label for="Price">Min. Price to Become Seller</label>
+                    &nbsp;
+                      <select name="price" id="price">
+                        <option value="3000">3000</option>
+                        <option value="4000">4000</option>
+                        <option value="5000">5000</option>
+                        <option value="More">More</option>
+                      </select>&nbsp; &nbsp; &nbsp; &nbsp;
+                      &nbsp;  
+                    
+                    <label for="upassword">Password</label>
+                    <input type="password" placeholder="******** " id="upassword" required>
+              
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" placeholder="******** " id="confirmPassword" required>
+              
+                    <div class="clearfix">
+                      <!-- <button type="submit" class="signupbtn"><b>Register<b></button> -->
+                          <button class="button button1">
+                          <a class="nav-link active" href="/products/new" tabindex="-1" aria-disabled="true">Register</a>
+                        </button>
+                        <!-- <a class="nav-link active" href="/comments" tabindex="-1" aria-disabled="true">Ask
+                          doubt</a> -->
+                    </div>
+              </form>
+      </div>
+  
+  <!-- <script src="socket.io/socket.io.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.25.3/moment.min.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/app.js"></script> -->
 </body>
 
 </html>
