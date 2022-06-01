@@ -142,7 +142,9 @@ section{
 #bodypart{
     /* height: 50vh;
     width: 100%; */
-    background-color:#f4acb7;
+    background-color:#8ba0f1f7;
+    color:#000000;
+    border-radius: 20px 60px;
 }
 #bodypart h2{
     

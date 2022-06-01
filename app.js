@@ -118,6 +118,6 @@ app.use(userRoutes);
 
 
 
-app.listen(process.env.PORT || 3001, () => {
-    console.log("Server running on port 3001");
+app.listen(process.env.PORT || 3000, () => {
+    console.log("Server running on port 3000");
 })

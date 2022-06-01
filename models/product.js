@@ -8,6 +8,9 @@ const productSchema=new mongoose.Schema({
     img:{
         type: String,
     },
+    ylink:{
+        type: String,
+    },
     price:{
         type: Number,
         min: 0,
